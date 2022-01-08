@@ -1,5 +1,4 @@
-@import url(https://fonts.google.com/specimen/Poppins)
-family=Poppins:400, 500, 600, 7005display=swap');
+@import url('https://fonts.google.com/specimen/Poppins?family=Poppins:400, 500, 600, 700&display=swap');
 
 * {
     box-sizing: border-Box ;
@@ -10,6 +9,21 @@ body {
     background-color: hsl(0, 100%, 74%);
     color: #fff;
     font-family: 'Poppins' , sans-serif;
+}
+
+.main-title{
+    text-transform: uppercase;
+    animation: MoveFromBottom 1s ease-in 2s;
+}
+
+@keyframes MoveFromBottom{
+    0% {
+        transform: translateY(25rem);
+      }
+
+      100% {
+        transform: translateY(0);
+      }
 }
 
 .container {
@@ -147,6 +161,5 @@ small a {
 
     .container {
         font: column;
-    }
-    
+    }   
 }

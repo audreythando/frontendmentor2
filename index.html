@@ -1,57 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Intro component with sign up form</title>
 
-<link rel="stylesheet" href="style.css">
+  <title>sign-up</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <div class="container">
-  <div>
-    <h1>Learn to code by watching others</h1>
-    <P>
-      See how experienced developers solve problems
-      in real-time. Watching scripted tutorials is great but,
-      understanding how developers think is invaluable.
-    </P>
-  </div>
-  <div>
-    <div class="Box Box-blue">
-      <p>
-    <strong>Try it free 7 days</strong>then $20/mo. thereafter
-      </p>
+    <div>
+      <h1 class="main-title">Learn to code by watching others</h1>
+      <P>
+        See how experienced developers solve problems
+        in real-time. Watching scripted tutorials is great but,
+        understanding how developers think is invaluable.
+      </P>
     </div>
-    
-    <form class="Box" id="form">
-      <div class="form-control">
-        <input type="text" id="firstname" placeholder="First Name"  />
-        <small>First Name cannot be empty</small>
+    <div>
+      <div class="Box Box-blue">
+        <p>
+          <strong>Try it free 7 days</strong>then $20/mo. thereafter
+        </p>
       </div>
-      <div class="form-control"><input type="text" id="lastname"  placeholder="Last Name" />
-        <small>Last Name cannot be empty</small>
-      </div>
-      <div class="form-control"><input type="email" id="email" placeholder="Email Address" />
-        <small>Email cannot be empty</small>
-      </div>
-      <div class="form-control">
-        <input type="password" id="password" placeholder="Password" />
-      <small>Password cannot be empty</small>
-    </div>
 
-      <button>Claim your free trial</button>
+      <form class="Box" id="form">
+
+        <div class="form-control">
+          <input type="text" id="firstname" placeholder="First Name" />
+          <small>First Name cannot be empty</small>
+        </div>
+        <div class="form-control"><input type="text" id="lastname" placeholder="Last Name" />
+          <small>Last Name cannot be empty</small>
+        </div>
+        <div class="form-control"><input type="email" id="email" placeholder="Email Address" />
+          <small>Email cannot be empty</small>
+        </div>
+        <div class="form-control">
+          <input type="password" id="password" placeholder="Password" />
+          <small>Password cannot be empty</small>
+        </div>
+
+        <button>Claim your free trial</button>
         <small>
           By clicking the button, you are agreeing to our
           <a href="a">Terms and Services</a>
         </small>
-    </form>
+      </form>
+    </div>
   </div>
-  </div>
-  
-  <script src=".script.js"></script>
 </body>
+
 </html>
