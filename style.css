@@ -13,7 +13,7 @@ body {
 
 .main-title{
     text-transform: uppercase;
-    animation: MoveFromBottom 1s ease-in 2s;
+    animation: MoveFromBottom 1s ease-in;
 }
 
 @keyframes MoveFromBottom{
