@@ -1,1 +1,4 @@
-# frontendmentor2
+# Signup landing page
+
+Stack:
+- Html + CSS
